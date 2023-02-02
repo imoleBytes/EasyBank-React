@@ -1,3 +1,6 @@
+import mockup from "../assets/image-mockups.png"
+
+
 const Hero = () => {
     return (
     <section className="hero">
@@ -9,7 +12,7 @@ const Hero = () => {
                 <a href="">Request Invite</a>
             </div>
             <div className="hero__right">
-                <img src="" alt="" />
+                <img src={mockup} alt="" />
             </div>
         </div>
     </section>
