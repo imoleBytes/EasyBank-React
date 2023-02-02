@@ -8,7 +8,7 @@ import ig from "../assets/icon-instagram.svg"
 
 const Footer = () => {
     return (
-    <footer>
+    <footer style={{backgroundColor:'black'}}>
         <div className="container footer">
             <div className="footer__left">
                 <div className="icons">
