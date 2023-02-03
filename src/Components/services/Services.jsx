@@ -1,4 +1,4 @@
-import { servicesData } from "./data"
+import { servicesData } from "../data"
 import Service from "./Service"
 
 

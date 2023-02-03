@@ -1,4 +1,4 @@
-import mockup from "../assets/image-mockups.png"
+import mockup from "../../assets/image-mockups.png"
 
 
 const Hero = () => {

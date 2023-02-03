@@ -1,19 +1,12 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
+import Header from './Components/header/Header'
+import Hero from './Components/hero/Hero'
+import Services from './Components/services/Services'
+import Articles from './Components/articles/Articles'
+import Footer from './Components/footer/Footer'
 
-import Header from './Components/Header'
-import Hero from './Components/Hero'
-import Services from './Components/Services'
-import Articles from './Components/Articles'
-import Footer from './Components/Footer'
-
-
-
-// import './App.css'
+import './App.css'
 
 function App() {
-
-
   return (
     <>
     <Header/>

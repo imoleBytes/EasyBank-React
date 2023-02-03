@@ -1,9 +1,9 @@
-import Logo from "../assets/logo.svg"
-import Fb from "../assets/icon-facebook.svg"
-import yt from "../assets/icon-youtube.svg"
-import tw from "../assets/icon-twitter.svg"
-import pn from "../assets/icon-pinterest.svg"
-import ig from "../assets/icon-instagram.svg"
+import Logo from "../../assets/logo.svg"
+import Fb from "../../assets/icon-facebook.svg"
+import yt from "../../assets/icon-youtube.svg"
+import tw from "../../assets/icon-twitter.svg"
+import pn from "../../assets/icon-pinterest.svg"
+import ig from "../../assets/icon-instagram.svg"
 
 
 const Footer = () => {

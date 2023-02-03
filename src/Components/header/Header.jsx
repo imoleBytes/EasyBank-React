@@ -1,11 +1,11 @@
-import Logo from "../assets/logo.svg"
+import Logo from "../../assets/logo.svg"
 
 const Header = () => {
     return (
         <header>
             <div className="container navbar">                
                 <div className="logo">
-                <img src={Logo} alt="logo" />
+                    <img src={Logo} alt="logo" />
                 </div>
                 
                 <nav>
@@ -16,9 +16,15 @@ const Header = () => {
                         <li>Blog</li>
                         <li>Careers</li>
                     </ul>
+
+                    <a href="">Request Invite</a>
+
+                    <div className="menuHamburger">
+                        {/* <img src="" alt="" /> */}
+                        <h2>M</h2>
+                    </div>
                 </nav>
 
-                <a href="">Request Invite</a>
             </div>
         </header>
     )
