@@ -1,6 +1,25 @@
+import { useState } from "react"
+
+
+
 import Logo from "../../assets/logo.svg"
+import Hamburger from "../../assets/icon-hamburger.svg"
+import "./header.css"
+
+
+
+const menu = (
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Careers</a></li>
+    </ul>
+)
 
 const Header = () => {
+    const [menuClicked, setmenuClicked] = useState(false);
     return (
         <header>
             <div className="container navbar">                
@@ -9,19 +28,22 @@ const Header = () => {
                 </div>
                 
                 <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
-                    </ul>
+                    {menuClicked && menu}  
 
-                    <a href="">Request Invite</a>
+                    <ul className="desktopMenu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>                  
+                    
 
-                    <div className="menuHamburger">
-                        {/* <img src="" alt="" /> */}
-                        <h2>M</h2>
+                    <a href="" className="btn">Request Invite</a>
+
+                    <div className="menuIcon" onClick={() =>{setmenuClicked(v=>!v)}}>
+                        <img src={Hamburger} alt="menu" />
+                        
                     </div>
                 </nav>
 

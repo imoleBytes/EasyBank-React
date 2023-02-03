@@ -1,0 +1,40 @@
+/* header{
+    background-color: aqua;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border: 1px solid gray;
+    position: relative;
+}
+ nav ul{
+    border: 1px solid gray;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+ }
+
+ .desktopMenu{
+    display: none;
+ }
+
+ nav ul li{
+    margin: 20px auto;
+ }
+
+ nav > a{
+    display: none;
+ }
+
+
+
+
