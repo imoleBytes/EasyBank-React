@@ -10,7 +10,7 @@ import "./header.css"
 
 
 const menu = (
-    <ul>
+    <ul className="mobile">
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
@@ -38,8 +38,6 @@ const Header = () => {
                         <li><a href="">Blog</a></li>
                         <li><a href="">Careers</a></li>
                     </ul>                  
-                    
-
                     <a href="" className="btn">Request Invite</a>
 
                     <div className="menuIcon" onClick={() =>{setmenuClicked(v=>!v)}}>
