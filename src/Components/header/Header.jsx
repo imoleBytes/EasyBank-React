@@ -4,6 +4,7 @@ import { useState } from "react"
 
 import Logo from "../../assets/logo.svg"
 import Hamburger from "../../assets/icon-hamburger.svg"
+import CloseIcon from "../../assets/icon-close.svg"
 import "./header.css"
 
 
@@ -28,7 +29,7 @@ const Header = () => {
                 </div>
                 
                 <nav>
-                    {menuClicked && menu}  
+                    { menuClicked && menu }  
 
                     <ul className="desktopMenu">
                         <li><a href="">Home</a></li>
@@ -42,7 +43,7 @@ const Header = () => {
                     <a href="" className="btn">Request Invite</a>
 
                     <div className="menuIcon" onClick={() =>{setmenuClicked(v=>!v)}}>
-                        <img src={Hamburger} alt="menu" />
+                        <img src={ menuClicked ? CloseIcon : Hamburger} alt="menu" />
                         
                     </div>
                 </nav>
