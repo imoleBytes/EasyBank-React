@@ -8,4 +8,4 @@ const Service = ({data}) => {
     )
 }
 
-export default Service; 
+export default Service;  

@@ -16,7 +16,7 @@ const Services = () => {
                 {servicesData.map((service, index) => {
                     return <Service data={service} key = {index}/>
                 })}                      
-            </div> 
+            </div>  
         </div>
     </section>
     )

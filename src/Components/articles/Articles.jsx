@@ -1,10 +1,12 @@
 import { articlesData } from "../data"; 
 import Article from "./Article";
 
+import "./article.css"
+
 
 const Articles = () => {
     return (
-    <section>
+    <section className="articles">
         <div className="container">
             <h2>Latest Articles</h2>
             <div className="cards">
@@ -13,7 +15,7 @@ const Articles = () => {
                         return <Article data={article} key={index} />
                     })
                 }
-            </div>
+            </div> 
         </div>        
     </section>
     )

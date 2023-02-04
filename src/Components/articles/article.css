@@ -1,0 +1,39 @@
+.articles{
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+
+.articles h2{
+    font-size: 2rem;
+    font-weight: 300;  
+    text-align: center;
+}
+
+article {
+    margin: 50px auto;
+}
+
+article img{
+    width: 100%;
+}
+
+.article__body{
+    padding: 30px;
+    background-color: white;
+}
+.article__body h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+.article__body p{
+    color: hsl(233, 8%, 62%);
+
+}
+
+.article__body p:first-of-type {
+    font-size: 0.8rem;
+
+}

@@ -1,14 +1,16 @@
-import Logo from "../../assets/logo.svg"
+import Logo from "../../assets/footer-logo.svg"
 import Fb from "../../assets/icon-facebook.svg"
 import yt from "../../assets/icon-youtube.svg"
 import tw from "../../assets/icon-twitter.svg"
 import pn from "../../assets/icon-pinterest.svg"
 import ig from "../../assets/icon-instagram.svg"
 
+import "./footer.css"
+
 
 const Footer = () => {
     return (
-    <footer style={{backgroundColor:'black'}}>
+    <footer>
         <div className="container footer">
             <div className="footer__left">
                 <div className="icons">
