@@ -1,0 +1,28 @@
+
+.hero{
+
+    background-color: hsl(0, 0%, 98%);
+    background-image: url('../../assets/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size:150%;
+}
+
+.hero__img img{
+    width: 100%;
+}
+.hero__text{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.hero__text h1{
+    font-size: 3rem;
+}
+.hero__text p{
+    font-size: 1.5rem;
+    margin: 20px auto;
+}
+
