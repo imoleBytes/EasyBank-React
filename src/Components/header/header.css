@@ -27,6 +27,7 @@
     text-align: center;
     border-radius: 10px;
     padding: 50px;
+    z-index: 1;
  }
 
  .desktopMenu{
