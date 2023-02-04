@@ -1,8 +1,30 @@
 
 .services{
-    background-color: hsl(220, 16%, 96%);
-    /* transform: translateY(-250px); */
-    /* z-index: 0; */
-    /* padding: 100px 0; */
-    /* margin: auto; */
+    background-color: hsl(220, 16%, 96%);    
+}
+
+.services .container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 2rem;
+    font-weight: 300;     
+}
+
+.services p{
+    font-size: 1rem;
+    margin: 20px 0;
+    color: hsl(233, 8%, 62%);
+    /* font-weight: 300;      */
+}
+.services img{
+    margin-top: 20px;     
+}
+.services h3{
+    font-size: 1.5rem;
+    font-weight: 500;    
+    margin-top: 20px; 
 }
