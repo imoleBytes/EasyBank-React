@@ -32,3 +32,51 @@
     margin: 20px auto;
 }
 
+@media screen and (min-width: 580px) {
+
+    .hero{
+
+        background-image: url('../../assets/bg-intro-desktop.svg');
+        background-size:auto;
+        background-attachment: fixed;
+        background-position-x: 400%;
+        background-position-y: 45%;
+        /* overflow:unset; */
+    }
+
+    .hero .container{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 80vh;
+    }
+
+    .hero__img{
+        width: 50%;
+        position: relative;
+        height: auto;
+    }
+    
+    .hero__img img{
+        width: auto;
+        position: absolute;
+        top: -30%;
+        right: -48%;
+    }
+
+    .hero__text{
+        text-align:unset;
+        width: 50%;
+    }
+    
+    .hero__text h1{
+        margin: 0;
+        padding: 0;
+        font-size: 3rem;
+    }
+    .hero__text p{
+        font-size: 1.5rem;
+        margin: 20px auto;
+    } 
+
+    
+}
