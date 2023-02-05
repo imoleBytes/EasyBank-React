@@ -20,6 +20,21 @@
     color: hsl(233, 8%, 62%);
     /* font-weight: 300;      */
 }
+
+.services .card{
+    animation: showCard 1s ease forwards;
+}
+
+@keyframes showCard {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 .services img{
     margin-top: 20px;     
 }

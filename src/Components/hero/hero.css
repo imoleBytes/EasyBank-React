@@ -11,6 +11,23 @@
 .hero__img{
     position: relative;
     height: 55vh;
+    animation: showHeroImg 0.5s ease-in forwards;
+
+}
+
+@keyframes showHeroImg {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .hero__img img{
@@ -20,6 +37,22 @@
 }
 .hero__text{
     text-align: center;
+    animation: showHeroText 0.5s ease-in forwards;
+}
+
+@keyframes showHeroText {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .hero__text h1{
@@ -31,7 +64,7 @@
     font-size: 1.5rem;
     margin: 20px auto;
 }
-
+ 
 @media screen and (min-width: 580px) {
 
     .hero{
@@ -71,6 +104,8 @@
         justify-content: center;
         /* align-items: center; */
     }
+
+    
     
     .hero__text h1{
         
