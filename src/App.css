@@ -25,6 +25,8 @@ a:hover{
 }
 
 .btn{
+  display: inline-block;
+  width: fit-content;
   background-image: linear-gradient(120deg,
    hsl(136, 65%, 51%), 
    hsl(192, 70%, 51%));

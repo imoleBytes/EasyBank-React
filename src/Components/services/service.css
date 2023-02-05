@@ -28,3 +28,18 @@
     font-weight: 500;    
     margin-top: 20px; 
 }
+
+@media screen and (min-width: 580px) {
+    .services .container{
+        width: 80%;
+        margin: 0 auto;
+        text-align:unset;
+    }
+    .services .container > p{
+        width: 60%;
+    }
+    .services .container .cards{
+        display: flex;
+        gap: 10px;
+    }
+}
