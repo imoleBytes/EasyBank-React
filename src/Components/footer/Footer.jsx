@@ -7,7 +7,7 @@ import ig from "../../assets/icon-instagram.svg"
 
 import "./footer.css"
 
-
+ 
 const Footer = () => {
     return (
     <footer>

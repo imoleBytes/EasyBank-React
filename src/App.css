@@ -15,6 +15,12 @@
   font-family: 'Public Sans', sans-serif;
 }
 
+
+/* body{
+  
+  margin: auto;
+} */
+
 a{
   display: inline-block;
   cursor: pointer;
