@@ -5,12 +5,12 @@
     background-image: url('../../assets/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 .hero__img{
-    position: relative;
-    height: 55vh;
+    position: relative;    
+    height: auto;
     animation: showHeroImg 0.5s ease-in forwards;
 
 }
@@ -71,7 +71,7 @@
 
         background-image: url('../../assets/bg-intro-desktop.svg');
         background-size:auto;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position-x: 400%;
         background-position-y: 45%;
         /* overflow:unset; */
@@ -80,7 +80,7 @@
     .hero .container{
         display: flex;
         flex-direction: row-reverse;
-        height: 80vh;
+        height: 75vh;
     }
 
     .hero__img{
